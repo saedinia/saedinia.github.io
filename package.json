@@ -7,7 +7,9 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format:check": "prettier --check ./src",
+    "format:fix": "prettier --write ./src"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
@@ -17,10 +19,16 @@
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
     "astro": "^4.1.1",
+    "gsap": "^3.12.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "daisyui": "^4.5.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.3"
   }
 }
