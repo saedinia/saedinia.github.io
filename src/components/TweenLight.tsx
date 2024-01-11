@@ -20,7 +20,7 @@ const TweenLight = () => {
   };
 
   useEffect(() => {
-    const itemsDown = [
+    [
       '.light4',
       '.light5',
       '.light6',
@@ -33,7 +33,8 @@ const TweenLight = () => {
       '.light15',
       '.light16',
     ].forEach((e) => animateWithRandomNumber(e, -1080, 1080));
-    const itemsUp = [
+
+    [
       '.light1',
       '.light2',
       '.light3',
