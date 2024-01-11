@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import './../css/twennlight.css';
+import { useEffect } from 'react';
 import { gsap } from 'gsap';
+import './twennlight.css';
 
 const TweenLight = () => {
   const animateWithRandomNumber = (myClass: any, from: any, to: any) => {
