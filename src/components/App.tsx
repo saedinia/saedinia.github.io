@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './../react-pages/Home';
-import About from './../react-pages/About';
+import Home from '../pages/_Home';
+import About from '../pages/_About';
 import TweenLight from './TweenLight';
 
 const App = () => {
