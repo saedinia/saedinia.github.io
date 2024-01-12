@@ -1,16 +1,9 @@
 ---
 import App from '../components/App'
+import MainLayout from './../layouts/MainLayout.astro';
 ---
 
-<html lang="en" data-theme="dark">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>	
-	</head>
-	<body>
-	  <App client:only/>
-	</body>
-</html>
+<MainLayout>
+	<App client:only/>
+</MainLayout>
+	

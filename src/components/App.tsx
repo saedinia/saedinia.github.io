@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from '../pages/_Home';
-import About from '../pages/_About';
+import Home from './Home';
+import About from './About';
 import TweenLight from '../plugins/TweenLight/TweenLight';
 import './../scss/main.scss';
+import { useEffect } from 'react';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
           <Route path="/About" element={<About />} />
         </Routes>
       </Router>
-      <TweenLight />
+      {/* <TweenLight /> */}
     </div>
   );
 };
