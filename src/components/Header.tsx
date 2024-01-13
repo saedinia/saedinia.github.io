@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <header className="fixed w-full md:static">
+    <header className="fixed w-full z-50 md:static">
       <Navbar />
     </header>
   );

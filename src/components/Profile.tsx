@@ -35,7 +35,11 @@ function Profile() {
         <div className="social pt-2 pb-16 bg-base-200">
           <ul className="flex justify-center gap-4">
             <li>
-              <a href="#" className="text-gray-400 hover:text-gray-500">
+              <a
+                href="https://github.com/saedinia"
+                target="_blank"
+                className="text-gray-400 hover:text-gray-500"
+              >
                 <span className="sr-only">GitHub</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +52,11 @@ function Profile() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-400 hover:text-gray-500">
+              <a
+                href="https://www.linkedin.com/in/sadegh-saedi-nia-26798a6b/"
+                target="_blank"
+                className="text-gray-400 hover:text-gray-500"
+              >
                 <span className="sr-only">Linkedin</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -61,20 +69,57 @@ function Profile() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-400 hover:text-gray-500">
-                <span className="sr-only">Instagram</span>
+              <a
+                href="mailto:s.saedinia@gmail.com"
+                target="_blank"
+                className="text-gray-400 hover:text-gray-500"
+              >
+                <span className="sr-only">Email</span>
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="pointer-events-none h-6 w-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  <path d="M12.042 23.648c-7.813 0-12.042-4.876-12.042-11.171 0-6.727 4.762-12.125 13.276-12.125 6.214 0 10.724 4.038 10.724 9.601 0 8.712-10.33 11.012-9.812 6.042-.71 1.108-1.854 2.354-4.053 2.354-2.516 0-4.08-1.842-4.08-4.807 0-4.444 2.921-8.199 6.379-8.199 1.659 0 2.8.876 3.277 2.221l.464-1.632h2.338c-.244.832-2.321 8.527-2.321 8.527-.648 2.666 1.35 2.713 3.122 1.297 3.329-2.58 3.501-9.327-.998-12.141-4.821-2.891-15.795-1.102-15.795 8.693 0 5.611 3.95 9.381 9.829 9.381 3.436 0 5.542-.93 7.295-1.948l1.177 1.698c-1.711.966-4.461 2.209-8.78 2.209zm-2.344-14.305c-.715 1.34-1.177 3.076-1.177 4.424 0 3.61 3.522 3.633 5.252.239.712-1.394 1.171-3.171 1.171-4.529 0-2.917-3.495-3.434-5.246-.134z"></path>
                 </svg>
               </a>
             </li>
           </ul>
+        </div>
+        <div className="divider m-0 bg-base-200 h-0"></div>
+        <div className="links">
+          <a
+            href="/pdf/Resume_Sadegh-SaediNia.pdf"
+            className="py-4 bg-base-200 hover:bg-base-100"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-5 h-5 mr-3 relative bottom-1 inline-block"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10.5 3.75a6 6 0 0 0-5.98 6.496A5.25 5.25 0 0 0 6.75 20.25H18a4.5 4.5 0 0 0 2.206-8.423 3.75 3.75 0 0 0-4.133-4.303A6.001 6.001 0 0 0 10.5 3.75Zm2.25 6a.75.75 0 0 0-1.5 0v4.94l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V9.75Z"
+                clipRule="evenodd"
+              />
+            </svg>
+            Download CV
+          </a>
+          <div className="divider divider-horizontal w-0 m-0"></div>
+          <a href="#contact" className="py-4 bg-base-200 hover:bg-base-100">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-5 h-5 mr-3 relative bottom-1 inline-block"
+            >
+              <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+            </svg>
+            Contact me
+          </a>
         </div>
       </div>
     </div>
