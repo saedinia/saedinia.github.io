@@ -15,17 +15,22 @@ function Navbar() {
 
   useEffect(() => {
     const rTyped = document.querySelectorAll('.r-typed');
+    var typed: Typed;
     rTyped.forEach((item) => {
-      var $this = item;
-      var $string = subtitle[0];
-      var typed = new Typed($this, {
-        stringsElement: $string,
+      const $this = item;
+
+      typed = new Typed($this, {
+        strings: subtitle,
         backDelay: 3500,
         typeSpeed: 80,
         backSpeed: 20,
         loop: true,
       });
     });
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
   }, []);
 
   return (
