@@ -14,7 +14,7 @@ const Theme = () => {
   }, [isdark]);
 
   return (
-    <label className="swap swap-rotate tooltip grid" data-tip="Theme">
+    <label className="swap swap-rotate flex mt-3 md:mt-0">
       {/* this hidden checkbox controls the state */}
       <input
         type="checkbox"
@@ -26,7 +26,7 @@ const Theme = () => {
 
       {/* sun icon */}
       <svg
-        className="swap-on fill-current w-8 h-8"
+        className="swap-on fill-current w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
@@ -35,7 +35,7 @@ const Theme = () => {
 
       {/* moon icon */}
       <svg
-        className="swap-off fill-current w-8 h-8"
+        className="swap-off fill-current w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >

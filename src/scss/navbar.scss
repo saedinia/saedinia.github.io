@@ -1,0 +1,11 @@
+.full-name {
+  @apply flex flex-col justify-start px-0 mx-0;
+
+  .title {
+    @apply font-bold w-full text-base;
+  }
+
+  .subtitle {
+    @apply font-medium text-secondary w-full;
+  }
+}
