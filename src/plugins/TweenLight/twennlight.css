@@ -73,11 +73,20 @@
   object-fit: cover;
 }
 
-.canvas.canvas-cyberlines {
+[data-theme='light'] .canvas.canvas-cyberlines {
+  background-color: #e7e4e4 !important;
+}
+
+[data-theme='light'] .canvas-cyberlines .line,
+[data-theme='light'] .canvas-cyberlines .light {
+  fill: #991900 !important;
+}
+
+[data-theme='dark'] .canvas.canvas-cyberlines {
   background-color: #161616 !important;
 }
 
-.canvas-cyberlines .line,
-.canvas-cyberlines .light {
+[data-theme='dark'] .canvas-cyberlines .line,
+[data-theme='dark'] .canvas-cyberlines .light {
   fill: #f6b846 !important;
 }
