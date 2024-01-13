@@ -2,10 +2,10 @@
   @apply flex flex-col justify-start px-0 mx-0;
 
   .title {
-    @apply font-bold w-full text-base;
+    @apply w-full;
   }
 
   .subtitle {
-    @apply font-medium text-secondary w-full leading-none;
+    @apply font-light text-secondary w-full leading-none text-xs;
   }
 }

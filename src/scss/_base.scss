@@ -26,6 +26,10 @@ body {
     max-width: rem(1440);
     margin-inline: auto;
   }
+
+  .main-content {
+    padding-block-start: rem(165);
+  }
 }
 
 .typed-cursor {

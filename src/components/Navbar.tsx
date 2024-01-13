@@ -1,37 +1,9 @@
 import React, { useEffect } from 'react';
 import Avatar from './Avatar';
 import Theme from './Theme';
-import Typed from 'typed.js';
 
 function Navbar() {
   const fullName = 'Sadegh Saedi Nia';
-  const subtitle = [
-    'Web Developer',
-    'Front-end Developer',
-    'Back-end Developer',
-    'Freelancer',
-    'Programmer',
-  ];
-
-  useEffect(() => {
-    const rTyped = document.querySelectorAll('.r-typed');
-    var typed: Typed;
-    rTyped.forEach((item) => {
-      const $this = item;
-
-      typed = new Typed($this, {
-        strings: subtitle,
-        backDelay: 3500,
-        typeSpeed: 80,
-        backSpeed: 20,
-        loop: true,
-      });
-    });
-    return () => {
-      // Destroy Typed instance during cleanup to stop animation
-      typed.destroy();
-    };
-  }, []);
 
   return (
     <nav className="md:grid md:gap-2">
@@ -47,7 +19,7 @@ function Navbar() {
 
             <div className="full-name">
               <div className="title">{fullName}</div>
-              <div className="subtitle r-typed">{subtitle[0]}</div>
+              <div className="subtitle r-typed"></div>
             </div>
           </li>
           <li>

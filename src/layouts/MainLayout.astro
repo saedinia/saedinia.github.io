@@ -1,5 +1,6 @@
 ---
-
+import Header from './../components/Header';
+import TweenLight from './../plugins/TweenLight/TweenLight';
 ---
 
 <html lang="en">
@@ -14,6 +15,12 @@
 		</script>	
 	</head>
 	<body>
-  	<slot />	
+		<div class="container">
+			<Header client:only />
+			<div class="main-content">
+			  <slot />	
+			</div>
+		</div>
+		<TweenLight client:only/>
 	</body>
 </html>
