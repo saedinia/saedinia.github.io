@@ -34,6 +34,7 @@ function Home() {
   return (
     <>
       <Profile />
+      <div className="cards"></div>
     </>
   );
 }

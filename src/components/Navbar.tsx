@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import Avatar from './Avatar';
 import Theme from './Theme';
 
@@ -8,7 +7,7 @@ function Navbar() {
   return (
     <nav className="md:grid md:gap-2">
       <div className="topbar-menu">
-        <ul className="menu menu-horizontal md:menu-vertical bg-base-200 md:rounded-box w-full md:w-auto flex justify-between align-middle">
+        <ul className="menu menu-horizontal md:menu-vertical bg-base-200 w-full md:w-auto flex justify-between align-middle md:rounded-lg">
           <li className="flex flex-row align-middle md:hidden">
             <Avatar
               src="/images/profile.jpg"
@@ -27,21 +26,18 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="divider m-0 bg-base-200 h-0"></div>
+      <div className="divider m-0 bg-base-200 h-0 md:hidden"></div>
       <div className="mein-menu">
-        <ul className="menu menu-horizontal md:menu-vertical bg-base-200 md:rounded-box w-full md:w-auto flex justify-between align-middle flex-nowrap px-0 gap-0 md:gap-4">
+        <ul className="menu menu-horizontal md:menu-vertical bg-base-200 md:rounded-lg w-full md:w-auto flex justify-between align-middle flex-nowrap px-0 gap-0 md:gap-4 uppercase">
           <li>
-            <a
-              className="flex flex-col gap-0 p-0 md:p-2 md:tooltip mx-auto"
-              data-tip="About"
-            >
+            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth={1.5}
+                strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8"
+                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -49,21 +45,18 @@ function Navbar() {
                   d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
                 />
               </svg>
-              <div className="menu-title md:hidden">About</div>
+              <div className="font-light p-2">About</div>
             </a>
           </li>
           <li>
-            <a
-              className="flex flex-col gap-0 p-0 md:p-2 md:tooltip mx-auto"
-              data-tip="Resume"
-            >
+            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth={1.5}
+                strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8"
+                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -72,21 +65,18 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="menu-title md:hidden">Resume</div>
+              <div className="font-light p-2">Resume</div>
             </a>
           </li>
           <li>
-            <a
-              className="flex flex-col gap-0 p-0 md:p-2 md:tooltip mx-auto"
-              data-tip="Work"
-            >
+            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth={1.5}
+                strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8"
+                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -100,21 +90,18 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="menu-title  md:hidden">Work</div>
+              <div className="font-light p-2">Work</div>
             </a>
           </li>
           <li>
-            <a
-              className="flex flex-col gap-0 p-0 md:p-2 md:tooltip mx-auto"
-              data-tip="Blog"
-            >
+            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-8 h-8"
+                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -123,21 +110,18 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="menu-title md:hidden">Blog</div>
+              <div className="font-light p-2">Blog</div>
             </a>
           </li>
           <li>
-            <a
-              className="flex flex-col gap-0 p-0 md:p-2 md:tooltip mx-auto"
-              data-tip="Contact"
-            >
+            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-8 h-8"
+                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -146,7 +130,7 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="menu-title md:hidden">Contact</div>
+              <div className="font-light p-2">Contact</div>
             </a>
           </li>
         </ul>

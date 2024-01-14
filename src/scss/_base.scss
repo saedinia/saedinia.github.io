@@ -20,11 +20,7 @@ a {
 body {
   .container {
     position: absolute;
-    min-height: 100vh;
-    min-width: 100vw;
     z-index: 1000;
-    max-width: rem(1440);
-    margin-inline: auto;
   }
 
   .main-content {
@@ -36,4 +32,23 @@ body {
   display: none;
   visibility: hidden;
   opacity: 0;
+}
+
+@media screen and (min-width: 760px) {
+  body {
+    .container {
+      @apply grid gap-2;
+      grid-template-columns: repeat(2, auto);
+      height: 84vh;
+      max-width: rem(1268);
+      max-height: rem(674);
+      margin: 8vh 6vw;
+    }
+
+    .main-content {
+      padding-block-start: rem(0);
+      @apply grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }
