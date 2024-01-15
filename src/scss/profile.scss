@@ -14,8 +14,8 @@
         border-radius: 100% 100% 0 0;
       }
 
-      &:after {
-        @apply bg-base-200;
+      &::after {
+        @apply bg-primary;
       }
     }
   }
@@ -35,6 +35,8 @@
 @media screen and (min-width: rem(760)) {
   .profile {
     @apply relative;
+    max-width: rem(480);
+    z-index: 1;
 
     &::after {
       content: '';
@@ -51,6 +53,18 @@
 
     .profile-content {
       @apply rounded overflow-hidden;
+    }
+  }
+
+  [data-theme='light'] {
+    .profile {
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  [data-theme='dark'] {
+    .profile {
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
     }
   }
 }

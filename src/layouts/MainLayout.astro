@@ -6,23 +6,23 @@ const title = "Sadegh Saedi Nia"
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/images/profile.jpg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-		<script>
-			
-		</script>	
-	</head>
-	<body>
-		<div class="container">
-			<Header client:only />
-			<div class="main-content">
-			  <slot />	
-			</div>
-		</div>
-		<TweenLight client:only/>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/profile.jpg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content="{Astro.generator}" />
+    <title>{title}</title>
+    <script></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="container">
+        <Header client:only />
+        <div class="main-content">
+          <slot />
+        </div>
+      </div>
+      <TweenLight client:only />
+    </div>
+  </body>
 </html>

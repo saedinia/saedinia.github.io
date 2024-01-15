@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Profile from '../components/Profile';
+import Card from '../components/Card';
 import Typed from 'typed.js';
 
 function Home() {
@@ -34,7 +35,13 @@ function Home() {
   return (
     <>
       <Profile />
-      <div className="cards"></div>
+      <div className="cards">
+        <Card id="about" />
+        <Card id="resume" />
+        <Card id="work" />
+        <Card id="blog" />
+        <Card id="contact" />
+      </div>
     </>
   );
 }

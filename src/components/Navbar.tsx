@@ -1,13 +1,59 @@
+import { useEffect } from 'react';
 import Avatar from './Avatar';
 import Theme from './Theme';
 
 function Navbar() {
   const fullName = 'Sadegh Saedi Nia';
 
+  useEffect(() => {
+    const menuItems = document.querySelectorAll('.main-menu li a');
+    menuItems.forEach((item) => {
+      item.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        if (window.innerWidth >= 760) {
+          menuItems.forEach((item) => {
+            item.classList.remove('active');
+          });
+
+          const cards = document.querySelectorAll('.cards .card-inner');
+          cards.forEach((card) => {
+            card.classList.remove('active');
+            card.classList.add('fadeOutUp');
+            card.classList.remove('fadeInUp');
+          });
+
+          const cardTergetName = item
+            .getAttribute('href')
+            ?.replace('#', '')
+            .toLowerCase();
+          const cardTarget = document.querySelector(
+            `.cards .card-inner[id="card-${cardTergetName}"]`,
+          );
+
+          item.classList.add('active');
+
+          cardTarget?.classList.remove('fadeOutUp');
+          cardTarget?.classList.add('active');
+          cardTarget?.classList.add('fadeInUp');
+        } else {
+          menuItems.forEach((item) => {
+            item.classList.remove('active');
+          });
+        }
+      });
+    });
+    return () => {
+      menuItems.forEach((item) => {
+        item.removeEventListener('click', () => {});
+      });
+    };
+  }, []);
+
   return (
     <nav className="md:grid md:gap-2">
       <div className="topbar-menu">
-        <ul className="menu menu-horizontal md:menu-vertical bg-base-200 w-full md:w-auto flex justify-between align-middle md:rounded-lg">
+        <ul className="menu menu-horizontal md:menu-vertical bg-primary w-full md:w-auto flex justify-between align-middle md:rounded-lg">
           <li className="flex flex-row align-middle md:hidden">
             <Avatar
               src="/images/profile.jpg"
@@ -26,11 +72,14 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="divider m-0 bg-base-200 h-0 md:hidden"></div>
-      <div className="mein-menu">
-        <ul className="menu menu-horizontal md:menu-vertical bg-base-200 md:rounded-lg w-full md:w-auto flex justify-between align-middle flex-nowrap px-0 gap-0 md:gap-4 uppercase">
+      <div className="divider m-0 bg-primary h-0 md:hidden"></div>
+      <div className="main-menu">
+        <ul className="menu menu-horizontal md:menu-vertical bg-primary md:rounded-lg w-full md:w-auto flex justify-between align-middle flex-nowrap px-0 gap-0 md:gap-4 uppercase">
           <li>
-            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
+            <a
+              href="#about"
+              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary active:bg-primary active"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -49,7 +98,10 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
+            <a
+              href="#resume"
+              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -69,7 +121,10 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
+            <a
+              href="#work"
+              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -94,12 +149,15 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
+            <a
+              href="#blog"
+              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth={1.5}
+                strokeWidth={1}
                 stroke="currentColor"
                 className="w-8 h-8 mx-auto"
               >
@@ -114,12 +172,15 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-base-200">
+            <a
+              href="#contact"
+              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth={1.5}
+                strokeWidth={1}
                 stroke="currentColor"
                 className="w-8 h-8 mx-auto"
               >

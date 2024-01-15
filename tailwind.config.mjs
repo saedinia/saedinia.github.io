@@ -10,10 +10,12 @@ export default {
       {
         light: {
           ...require('daisyui/src/theming/themes')['light'],
+          primary: 'hsl(0deg 0% 100%)',
           secondary: 'hsl(10 100% 30% / 1)',
         },
         dark: {
           ...require('daisyui/src/theming/themes')['dark'],
+          primary: 'hsl(0deg 0% 13.33%)',
           secondary: 'oklch(0.8804 0.206 93.72)',
         },
       },

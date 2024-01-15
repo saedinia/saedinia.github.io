@@ -3,13 +3,6 @@ import Avatar from './Avatar';
 
 function Profile() {
   const fullName = 'Sadegh Saedi Nia';
-  const subtitle = [
-    'Web Developer',
-    'Front-end Developer',
-    'Back-end Developer',
-    'Freelancer',
-    'Programmer',
-  ];
 
   return (
     <div className="profile text-center">
@@ -21,18 +14,18 @@ function Profile() {
           <Avatar
             src="/images/profile.jpg"
             alt="Sadegh Saedi Nia"
-            className="rounded-full w-36 border-2 border-base-200"
+            className="rounded-full w-36 border-2 border-primary"
             widthClass="w-36"
           />
         </div>
-        <div className="full-name text-center bg-base-200 py-5 h-32">
+        <div className="full-name text-center bg-primary py-4 h-32">
           <div className="title font-semibold text-3xl leading-loose">
             {fullName}
           </div>
           <div className="subtitle r-typed"></div>
         </div>
 
-        <div className="social pt-2 pb-16 bg-base-200">
+        <div className="social pt-2 pb-10 bg-primary">
           <ul className="flex justify-center gap-4">
             <li>
               <a
@@ -88,11 +81,11 @@ function Profile() {
             </li>
           </ul>
         </div>
-        <div className="divider m-0 bg-base-200 h-0"></div>
+        <div className="divider m-0 bg-primary h-0"></div>
         <div className="links">
           <a
             href="/pdf/Resume_Sadegh-SaediNia.pdf"
-            className="py-4 bg-base-200 hover:bg-base-100"
+            className="py-4 bg-primary hover:text-secondary"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +102,7 @@ function Profile() {
             Download CV
           </a>
           <div className="divider divider-horizontal w-0 m-0"></div>
-          <a href="#contact" className="py-4 bg-base-200 hover:bg-base-100">
+          <a href="#contact" className="py-4 bg-primary hover:text-secondary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

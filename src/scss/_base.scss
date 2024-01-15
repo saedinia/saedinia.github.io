@@ -36,19 +36,68 @@ body {
 
 @media screen and (min-width: 760px) {
   body {
+    overflow: hidden;
+    .page-wrapper {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
     .container {
       @apply grid gap-2;
       grid-template-columns: repeat(2, auto);
-      height: 84vh;
-      max-width: rem(1268);
-      max-height: rem(674);
-      margin: 8vh 6vw;
+      max-width: rem(1100);
+      margin: 8vh 0;
     }
 
     .main-content {
       padding-block-start: rem(0);
       @apply grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: auto 1fr;
+    }
+
+    @keyframes customfadeInUp {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 70%, 0);
+        transform: translate3d(0, 70%, 0);
+      }
+
+      to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    .fadeInUp {
+      -webkit-animation-name: customfadeInUp;
+      animation-name: customfadeInUp;
+    }
+
+    @keyframes customfadeOutUp {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -70%, 0);
+        transform: translate3d(0, -70%, 0);
+      }
+    }
+
+    .fadeOutUp {
+      -webkit-animation-name: customfadeOutUp;
+      animation-name: customfadeOutUp;
+    }
+
+    .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
     }
   }
 }

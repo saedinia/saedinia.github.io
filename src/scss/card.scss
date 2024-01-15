@@ -1,0 +1,47 @@
+.cards {
+  @apply grid gap-4 my-4;
+  .card-inner {
+    @apply bg-primary block p-8;
+  }
+}
+
+@media screen and (min-width: rem(760)) {
+  .cards {
+    .card-inner {
+      position: absolute;
+      overflow: hidden;
+      left: 560px;
+      width: auto;
+      height: auto;
+      transform-origin: center left;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 8;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 0 4px 4px 0;
+      -khtml-border-radius: 4px;
+      transition:
+        visibility 1s linear,
+        opacity 0s linear;
+      -moz-transition:
+        visibility 1s linear,
+        opacity 0s linear;
+      -webkit-transition:
+        visibility 1s linear,
+        opacity 0s linear;
+      -o-transition:
+        visibility 1s linear,
+        opacity 0s linear;
+      display: none;
+
+      &.active {
+        position: relative;
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+        display: block;
+      }
+    }
+  }
+}

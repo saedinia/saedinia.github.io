@@ -1,3 +1,16 @@
+nav {
+  .main-menu {
+    .menu {
+      li {
+        a {
+          &.active {
+            @apply text-secondary bg-primary;
+          }
+        }
+      }
+    }
+  }
+}
 .full-name {
   @apply flex flex-col justify-start px-0 mx-0;
 
@@ -7,5 +20,12 @@
 
   .subtitle {
     @apply font-light text-secondary w-full leading-none text-xs;
+  }
+}
+
+@media screen and (min-width: rem(760)) {
+  header {
+    max-width: rem(72);
+    @apply mt-4 ml-auto;
   }
 }

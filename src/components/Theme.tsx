@@ -14,7 +14,7 @@ const Theme = () => {
   }, [isdark]);
 
   return (
-    <label className="swap swap-rotate grid mt-3 md:mt-0 hover:text-secondary hover:bg-base-200">
+    <label className="swap swap-rotate grid mt-3 md:mt-0 hover:text-secondary hover:bg-primary">
       {/* this hidden checkbox controls the state */}
       <input
         type="checkbox"
