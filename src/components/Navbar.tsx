@@ -40,6 +40,24 @@ function Navbar() {
           menuItems.forEach((item) => {
             item.classList.remove('active');
           });
+
+          const cardTergetName = item
+            .getAttribute('href')
+            ?.replace('#', '')
+            .toLowerCase();
+
+          const cardTarget: HTMLElement | null = document.querySelector(
+            `.cards .card-inner[id="card-${cardTergetName}"]`,
+          );
+
+          const header: HTMLElement | null = document.querySelector('header');
+
+          if (cardTarget && header) {
+            window.scrollTo({
+              top: cardTarget.offsetTop - header.offsetHeight,
+              behavior: 'smooth',
+            });
+          }
         }
       });
     });
