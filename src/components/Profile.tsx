@@ -30,7 +30,7 @@ function Profile() {
               <a
                 href="https://github.com/saedinia"
                 target="_blank"
-                className="text-gray-400 hover:text-gray-500"
+                className="hover:text-secondary"
               >
                 <span className="sr-only">GitHub</span>
                 <svg
@@ -47,7 +47,7 @@ function Profile() {
               <a
                 href="https://www.linkedin.com/in/sadegh-saedi-nia-26798a6b/"
                 target="_blank"
-                className="text-gray-400 hover:text-gray-500"
+                className="hover:text-secondary"
               >
                 <span className="sr-only">Linkedin</span>
                 <svg
@@ -64,7 +64,7 @@ function Profile() {
               <a
                 href="mailto:s.saedinia@gmail.com"
                 target="_blank"
-                className="text-gray-400 hover:text-gray-500"
+                className="hover:text-secondary"
               >
                 <span className="sr-only">Email</span>
 
