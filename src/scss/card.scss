@@ -1,7 +1,32 @@
 .cards {
   @apply grid gap-4 my-4;
   .card-inner {
-    @apply bg-primary block p-8;
+    @apply bg-primary p-8 grid;
+
+    section {
+      h1 {
+        @apply text-xl relative p-2 mb-2 border-b border-secondary/25;
+
+        span {
+          @apply text-secondary;
+        }
+      }
+
+      .brand {
+        @apply text-secondary mx-2 p-1 border-2 border-secondary rounded-full inline-block;
+
+        svg {
+          @apply w-8 h-8;
+        }
+      }
+      .title {
+        @apply font-bold px-2 py-1;
+      }
+
+      p {
+        @apply px-2;
+      }
+    }
   }
 }
 
@@ -39,7 +64,6 @@
         left: 0;
         opacity: 1;
         visibility: visible;
-        display: block;
       }
     }
   }
