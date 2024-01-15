@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Avatar from './Avatar';
 import Theme from './Theme';
+import Language from './Language';
 
 function Navbar() {
   const fullName = 'Sadegh Saedi Nia';
@@ -85,7 +86,8 @@ function Navbar() {
               <div className="subtitle r-typed"></div>
             </div>
           </li>
-          <li>
+          <li className="flex flex-row">
+            <Language />
             <Theme />
           </li>
         </ul>
