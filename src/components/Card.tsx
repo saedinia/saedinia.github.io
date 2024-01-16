@@ -41,7 +41,9 @@ const About = () => {
       </section>
 
       <section className="services">
-        <h1 className="text-2xl">My Services</h1>
+        <h1 className="text-2xl">
+          <span>M</span>y Services
+        </h1>
         <div className="services-inner flex flex-row justify-center">
           <div className="service">
             <div className="brand">

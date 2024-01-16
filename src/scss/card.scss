@@ -13,7 +13,7 @@
       }
 
       .brand {
-        @apply text-secondary mx-2 p-1 border-2 border-secondary rounded-full inline-block;
+        @apply text-secondary p-2 inline-block;
 
         svg {
           @apply w-8 h-8;
