@@ -1,11 +1,11 @@
 .cards {
   @apply grid gap-4 my-4;
   .card-inner {
-    @apply bg-primary p-8 flex flex-col gap-8;
+    @apply bg-primary px-8 py-4 flex flex-col gap-8;
 
     section {
       h1 {
-        @apply text-lg font-semibold relative p-2 mb-2 border-b border-gray-600/30 uppercase;
+        @apply text-lg font-semibold relative p-2 px-10 mb-2 -mx-8 border-b border-gray-600/30 uppercase;
 
         span {
           @apply text-secondary;
@@ -18,7 +18,7 @@
       }
 
       .brand {
-        @apply text-secondary px-2 grid grid-cols-3 gap-2 text-center;
+        @apply text-secondary px-2 grid grid-cols-3 gap-2 text-center mt-2;
 
         svg {
           @apply w-8 h-8;
@@ -30,6 +30,30 @@
       }
       .title {
         @apply font-semibold px-2 py-1 text-neutral my-2;
+
+        i {
+          @apply text-secondary text-2xl relative top-0.5 mr-1 border border-secondary rounded-full px-2 py-1;
+        }
+      }
+
+      .toptitle {
+        @apply m-1 mb-2 relative;
+
+        svg {
+          @apply absolute right-0 top-1/2 -translate-y-1/2 text-secondary;
+        }
+      }
+
+      .subtitle {
+        @apply m-1 mb-2 relative text-sm leading-normal text-neutral-content;
+
+        svg {
+          @apply absolute right-0 top-1/2 -translate-y-1/2 text-secondary;
+        }
+      }
+
+      .period {
+        @apply text-secondary text-xs border border-secondary inline-block p-1 m-1;
       }
 
       p {
@@ -59,7 +83,7 @@
     .card-inner {
       position: absolute;
       overflow: hidden;
-      left: 560px;
+      left: rem(560);
       width: auto;
       height: auto;
       transform-origin: center left;

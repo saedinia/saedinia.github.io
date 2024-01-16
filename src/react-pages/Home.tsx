@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Profile from '../components/Profile';
-import Card from '../components/Card';
+import Cards from '../components/Cards';
 import Typed from 'typed.js';
 
 function Home() {
@@ -36,11 +36,7 @@ function Home() {
     <>
       <Profile />
       <div className="cards">
-        <Card id="about" />
-        <Card id="resume" />
-        <Card id="work" />
-        <Card id="blog" />
-        <Card id="contact" />
+        <Cards />
       </div>
     </>
   );

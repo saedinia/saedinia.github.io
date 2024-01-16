@@ -1,39 +1,19 @@
 import About from './Cards/About';
+import Resume from './Cards/Resume';
 
-interface Props {
-  id: string;
-}
+interface Props {}
 
-export default function Card({ id }: Props) {
-  switch (id) {
-    case 'about':
-      return <About />;
-    case 'resume':
-      return Resume();
-    case 'work':
-      return Work();
-    case 'blog':
-      return Blog();
-    case 'contact':
-      return Contact();
-  }
-}
-
-const Resume = () => {
+export default function Cards() {
   return (
-    <div id="card-resume" className="card-inner animated">
-      <section>
-        <h1>Card Resume</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-          ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-          similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-          doloremque officia ducimus!
-        </p>
-      </section>
-    </div>
+    <>
+      <About />
+      <Resume />
+      <Work />
+      <Blog />
+      <Contact />
+    </>
   );
-};
+}
 
 const Work = () => {
   return (

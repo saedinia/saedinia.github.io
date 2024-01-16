@@ -11,6 +11,7 @@
 }
 
 nav {
+  @apply border-t-8 border-secondary;
   .main-menu,
   .dropdown {
     .menu {
@@ -66,5 +67,9 @@ nav {
     header {
       box-shadow: none;
     }
+  }
+
+  nav {
+    @apply border-none;
   }
 }

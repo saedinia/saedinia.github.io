@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
   return (
     <div id="card-about" className="card-inner animated active">
