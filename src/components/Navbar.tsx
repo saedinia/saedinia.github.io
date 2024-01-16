@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Avatar from './Avatar';
-import Theme from './Theme';
 import Language from './Language';
+import Theme from './Theme';
 
 function Navbar() {
   const fullName = 'Sadegh Saedi Nia';
@@ -34,9 +34,11 @@ function Navbar() {
 
           item.classList.add('active');
 
-          cardTarget?.classList.remove('fadeOutUp');
-          cardTarget?.classList.add('active');
-          cardTarget?.classList.add('fadeInUp');
+          if (cardTarget) {
+            cardTarget.classList.remove('fadeOutUp');
+            cardTarget.classList.add('active');
+            cardTarget.classList.add('fadeInUp');
+          }
         } else {
           menuItems.forEach((item) => {
             item.classList.remove('active');
@@ -96,17 +98,13 @@ function Navbar() {
       <div className="main-menu">
         <ul className="menu menu-horizontal md:menu-vertical bg-primary md:rounded-lg w-full md:w-auto flex justify-between align-middle flex-nowrap px-0 gap-0 md:gap-4 uppercase">
           <li>
-            <a
-              href="#about"
-              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary active:bg-primary active"
-            >
+            <a href="#about">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -114,21 +112,17 @@ function Navbar() {
                   d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
                 />
               </svg>
-              <div className="font-light p-2">About</div>
+              <div>About</div>
             </a>
           </li>
           <li>
-            <a
-              href="#resume"
-              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
-            >
+            <a href="#resume">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -137,21 +131,17 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="font-light p-2">Resume</div>
+              <div>Resume</div>
             </a>
           </li>
           <li>
-            <a
-              href="#work"
-              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
-            >
+            <a href="#work">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -165,21 +155,17 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="font-light p-2">Work</div>
+              <div>Work</div>
             </a>
           </li>
           <li>
-            <a
-              href="#blog"
-              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
-            >
+            <a href="#blog">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -188,21 +174,17 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="font-light p-2">Blog</div>
+              <div>Blog</div>
             </a>
           </li>
           <li>
-            <a
-              href="#contact"
-              className="flex flex-col gap-0 p-0 mx-auto hover:text-secondary hover:bg-primary"
-            >
+            <a href="#contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1}
                 stroke="currentColor"
-                className="w-8 h-8 mx-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -211,7 +193,7 @@ function Navbar() {
                 />
               </svg>
 
-              <div className="font-light p-2">Contact</div>
+              <div className="">Contact</div>
             </a>
           </li>
         </ul>
