@@ -54,7 +54,7 @@ nav {
 @media screen and (min-width: rem(760)) {
   header {
     max-width: rem(72);
-    @apply mt-4 ml-auto;
+    @apply ml-auto;
   }
 
   [data-theme='light'] {

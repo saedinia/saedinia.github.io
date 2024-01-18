@@ -12,7 +12,7 @@ function Navbar() {
       item.addEventListener('click', (e) => {
         e.preventDefault();
 
-        if (window.innerWidth >= 760) {
+        if (window.innerWidth >= 1120) {
           menuItems.forEach((item) => {
             item.classList.remove('active');
           });
@@ -55,11 +55,20 @@ function Navbar() {
 
           const header: HTMLElement | null = document.querySelector('header');
 
-          if (cardTarget && header) {
-            window.scrollTo({
-              top: cardTarget.offsetTop - header.offsetHeight,
-              behavior: 'smooth',
-            });
+          if (window.innerWidth < 1120 && window.innerWidth > 760) {
+            if (cardTarget) {
+              window.scrollTo({
+                top: cardTarget.offsetTop,
+                behavior: 'smooth',
+              });
+            }
+          } else {
+            if (cardTarget && header) {
+              window.scrollTo({
+                top: cardTarget.offsetTop - header.offsetHeight,
+                behavior: 'smooth',
+              });
+            }
           }
         }
       });

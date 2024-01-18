@@ -100,7 +100,7 @@ const About = () => {
                 <i className="fa-brands fa-wordpress"></i>
               </div>
             </div>
-            <div className="title text-center">Backend-end</div>
+            <div className="title text-center">Back-end</div>
           </div>
         </div>
       </section>

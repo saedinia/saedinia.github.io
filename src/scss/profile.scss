@@ -35,7 +35,6 @@
 @media screen and (min-width: rem(760)) {
   .profile {
     @apply relative;
-    max-width: rem(480);
     z-index: 1;
 
     &::after {
@@ -66,5 +65,11 @@
     .profile {
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
     }
+  }
+}
+
+@media screen and (min-width: rem(1120)) {
+  .profile {
+    max-width: rem(480);
   }
 }
