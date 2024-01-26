@@ -9,10 +9,10 @@ function Resume() {
           <i className="fa-solid fa-briefcase"></i> Experience
         </div>
         <div className="period">04.2021 - Present</div>
-        <div className="toptitle">Web Developer</div>
+        <div className="toptitle">Fullstack Developer</div>
 
         <div className="subtitle">
-          Schwabeo GmbH
+          SCHWABEO GmbH, Germany
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
@@ -102,110 +102,72 @@ c114 -66 111 -270 -5 -333 -46 -25 -138 -21 -178 8 -63 46 -92 169 -58 247 40
           </svg>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-          ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-          similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-          doloremque officia ducimus!
+          Highly skilled Senior Full Stack Developer with 8 years of experience
+          in developing and maintaining web applications using modern
+          technologies such as React, Node.js, and MongoDB. Proven track record
+          in improving user engagement by 25%, reducing deployment time by 40%,
+          and mentoring junior developers resulting in a 10% improvement in team
+          satisfaction scores. Adept at collaborating with cross-functional
+          teams to implement security measures and optimize web application
+          performance.
         </p>
       </section>
 
       <section>
-        <div className="period">04.2021 - Present</div>
+        <div className="period">05.2019 - 03.2021</div>
         <div className="toptitle">Web Developer</div>
 
-        <div className="subtitle">
-          Schwabeo GmbH
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            className="w-20"
-          >
-            <path
-              fill="currentColor"
-              d="M1.478 10.016c.24 0 .59.046 1.046.14v.726a2.465 2.465 0 0 0-.946-.213c-.41 0-.615.118-.615.354c0 .088.041.16.124.216c.069.045.258.14.568.286c.446.208.743.388.89.541c.176.182.264.417.264.705c0 .415-.172.73-.516.949c-.279.176-.64.264-1.085.264c-.375 0-.753-.046-1.133-.139v-.755c.41.135.774.203 1.09.203c.437 0 .655-.121.655-.362a.302.302 0 0 0-.095-.227c-.065-.065-.232-.155-.5-.27c-.481-.208-.795-.384-.94-.53a.999.999 0 0 1-.284-.73c0-.377.137-.666.413-.864c.272-.196.626-.294 1.064-.294m21.19 0c.246 0 .565.04.956.123l.09.016v.727a2.471 2.471 0 0 0-.948-.213c-.409 0-.612.118-.612.354c0 .088.04.16.123.216c.066.043.256.139.57.286c.443.208.74.388.889.541c.176.182.264.417.264.705c0 .415-.172.73-.514.949c-.28.176-.643.264-1.087.264c-.376 0-.754-.046-1.134-.139v-.755c.407.135.77.203 1.09.203c.437 0 .655-.121.655-.362c0-.09-.03-.166-.092-.227c-.066-.065-.233-.155-.503-.27c-.48-.206-.793-.382-.94-.53a.997.997 0 0 1-.284-.732c0-.376.137-.664.413-.862c.272-.196.627-.294 1.064-.294m-12.674.066l.92 2.444l.942-2.444h1.257v3.825h-.968v-2.708l-1.072 2.747h-.632l-1.052-2.747v2.708H8.67v-3.825zm-5.587 0v3.825H3.386v-3.825zm3.554 0v.692H6.327v.864H7.75v.63H6.327v.908h1.677v.73h-2.66v-3.824zm8.707 0v.692h-1.634v.864h1.422v.63h-1.422v.908h1.677v.73H14.05v-3.824zm1.898 0l1.255 2.56v-2.56h.719v3.825h-1.15l-1.288-2.595v2.595h-.72v-3.825z"
-            />
-          </svg>
-        </div>
+        <div className="subtitle">InterNova Pro GmbH, Germany</div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-          ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-          similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-          doloremque officia ducimus!
+          Software development in the automotive sector ASP.NET MVC .Net
+          Framework, ASP.NET MVC .Net Core, C#.Net, HTML, CSS, JavaScript,
+          TypeScript, jQuery, JSON, Angular, Microsoft SQL Server
         </p>
       </section>
 
       <section>
-        <div className="period">04.2021 - Present</div>
-        <div className="toptitle">Web Developer</div>
+        <div className="period">12.2018 - 04.2019</div>
+        <div className="toptitle">Fullstack Developer</div>
 
-        <div className="subtitle">
-          Schwabeo GmbH
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            className="w-20"
-          >
-            <path
-              fill="currentColor"
-              d="M1.478 10.016c.24 0 .59.046 1.046.14v.726a2.465 2.465 0 0 0-.946-.213c-.41 0-.615.118-.615.354c0 .088.041.16.124.216c.069.045.258.14.568.286c.446.208.743.388.89.541c.176.182.264.417.264.705c0 .415-.172.73-.516.949c-.279.176-.64.264-1.085.264c-.375 0-.753-.046-1.133-.139v-.755c.41.135.774.203 1.09.203c.437 0 .655-.121.655-.362a.302.302 0 0 0-.095-.227c-.065-.065-.232-.155-.5-.27c-.481-.208-.795-.384-.94-.53a.999.999 0 0 1-.284-.73c0-.377.137-.666.413-.864c.272-.196.626-.294 1.064-.294m21.19 0c.246 0 .565.04.956.123l.09.016v.727a2.471 2.471 0 0 0-.948-.213c-.409 0-.612.118-.612.354c0 .088.04.16.123.216c.066.043.256.139.57.286c.443.208.74.388.889.541c.176.182.264.417.264.705c0 .415-.172.73-.514.949c-.28.176-.643.264-1.087.264c-.376 0-.754-.046-1.134-.139v-.755c.407.135.77.203 1.09.203c.437 0 .655-.121.655-.362c0-.09-.03-.166-.092-.227c-.066-.065-.233-.155-.503-.27c-.48-.206-.793-.382-.94-.53a.997.997 0 0 1-.284-.732c0-.376.137-.664.413-.862c.272-.196.627-.294 1.064-.294m-12.674.066l.92 2.444l.942-2.444h1.257v3.825h-.968v-2.708l-1.072 2.747h-.632l-1.052-2.747v2.708H8.67v-3.825zm-5.587 0v3.825H3.386v-3.825zm3.554 0v.692H6.327v.864H7.75v.63H6.327v.908h1.677v.73h-2.66v-3.824zm8.707 0v.692h-1.634v.864h1.422v.63h-1.422v.908h1.677v.73H14.05v-3.824zm1.898 0l1.255 2.56v-2.56h.719v3.825h-1.15l-1.288-2.595v2.595h-.72v-3.825z"
-            />
-          </svg>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-          ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-          similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-          doloremque officia ducimus!
-        </p>
+        <div className="subtitle">Freelancer</div>
+
+        <ul>
+          <li>Code and controller</li>
+          <li>testing Bug fixing</li>
+          <li>Code analysis</li>
+          <li>Website design and development</li>
+        </ul>
       </section>
 
       <section>
-        <div className="period">04.2021 - Present</div>
-        <div className="toptitle">Web Developer</div>
+        <div className="period">09.2018 - 11.2018</div>
+        <div className="toptitle">IT Manager</div>
 
         <div className="subtitle">
-          Schwabeo GmbH
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            className="w-20"
-          >
-            <path
-              fill="currentColor"
-              d="M1.478 10.016c.24 0 .59.046 1.046.14v.726a2.465 2.465 0 0 0-.946-.213c-.41 0-.615.118-.615.354c0 .088.041.16.124.216c.069.045.258.14.568.286c.446.208.743.388.89.541c.176.182.264.417.264.705c0 .415-.172.73-.516.949c-.279.176-.64.264-1.085.264c-.375 0-.753-.046-1.133-.139v-.755c.41.135.774.203 1.09.203c.437 0 .655-.121.655-.362a.302.302 0 0 0-.095-.227c-.065-.065-.232-.155-.5-.27c-.481-.208-.795-.384-.94-.53a.999.999 0 0 1-.284-.73c0-.377.137-.666.413-.864c.272-.196.626-.294 1.064-.294m21.19 0c.246 0 .565.04.956.123l.09.016v.727a2.471 2.471 0 0 0-.948-.213c-.409 0-.612.118-.612.354c0 .088.04.16.123.216c.066.043.256.139.57.286c.443.208.74.388.889.541c.176.182.264.417.264.705c0 .415-.172.73-.514.949c-.28.176-.643.264-1.087.264c-.376 0-.754-.046-1.134-.139v-.755c.407.135.77.203 1.09.203c.437 0 .655-.121.655-.362c0-.09-.03-.166-.092-.227c-.066-.065-.233-.155-.503-.27c-.48-.206-.793-.382-.94-.53a.997.997 0 0 1-.284-.732c0-.376.137-.664.413-.862c.272-.196.627-.294 1.064-.294m-12.674.066l.92 2.444l.942-2.444h1.257v3.825h-.968v-2.708l-1.072 2.747h-.632l-1.052-2.747v2.708H8.67v-3.825zm-5.587 0v3.825H3.386v-3.825zm3.554 0v.692H6.327v.864H7.75v.63H6.327v.908h1.677v.73h-2.66v-3.824zm8.707 0v.692h-1.634v.864h1.422v.63h-1.422v.908h1.677v.73H14.05v-3.824zm1.898 0l1.255 2.56v-2.56h.719v3.825h-1.15l-1.288-2.595v2.595h-.72v-3.825z"
-            />
-          </svg>
+          Leonix Business Development GmbH, Germany
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-          ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-          similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-          doloremque officia ducimus!
-        </p>
+
+        <ul>
+          <li>Manage information technology and computer systems</li>
+          <li>
+            Install well functioning LAN/WAN and others Networks and manage
+            components
+          </li>
+          <li>Use high-speed recovery techniques and backup data</li>
+          <li>Website design and development</li>
+        </ul>
       </section>
 
       <section>
-        <div className="period">04.2021 - Present</div>
-        <div className="toptitle">Web Developer</div>
+        <div className="period">09.2007 - 08.2018</div>
+        <div className="toptitle">IT Manager and Database Administrator</div>
 
         <div className="subtitle">
-          Schwabeo GmbH
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            className="w-20"
-          >
-            <path
-              fill="currentColor"
-              d="M1.478 10.016c.24 0 .59.046 1.046.14v.726a2.465 2.465 0 0 0-.946-.213c-.41 0-.615.118-.615.354c0 .088.041.16.124.216c.069.045.258.14.568.286c.446.208.743.388.89.541c.176.182.264.417.264.705c0 .415-.172.73-.516.949c-.279.176-.64.264-1.085.264c-.375 0-.753-.046-1.133-.139v-.755c.41.135.774.203 1.09.203c.437 0 .655-.121.655-.362a.302.302 0 0 0-.095-.227c-.065-.065-.232-.155-.5-.27c-.481-.208-.795-.384-.94-.53a.999.999 0 0 1-.284-.73c0-.377.137-.666.413-.864c.272-.196.626-.294 1.064-.294m21.19 0c.246 0 .565.04.956.123l.09.016v.727a2.471 2.471 0 0 0-.948-.213c-.409 0-.612.118-.612.354c0 .088.04.16.123.216c.066.043.256.139.57.286c.443.208.74.388.889.541c.176.182.264.417.264.705c0 .415-.172.73-.514.949c-.28.176-.643.264-1.087.264c-.376 0-.754-.046-1.134-.139v-.755c.407.135.77.203 1.09.203c.437 0 .655-.121.655-.362c0-.09-.03-.166-.092-.227c-.066-.065-.233-.155-.503-.27c-.48-.206-.793-.382-.94-.53a.997.997 0 0 1-.284-.732c0-.376.137-.664.413-.862c.272-.196.627-.294 1.064-.294m-12.674.066l.92 2.444l.942-2.444h1.257v3.825h-.968v-2.708l-1.072 2.747h-.632l-1.052-2.747v2.708H8.67v-3.825zm-5.587 0v3.825H3.386v-3.825zm3.554 0v.692H6.327v.864H7.75v.63H6.327v.908h1.677v.73h-2.66v-3.824zm8.707 0v.692h-1.634v.864h1.422v.63h-1.422v.908h1.677v.73H14.05v-3.824zm1.898 0l1.255 2.56v-2.56h.719v3.825h-1.15l-1.288-2.595v2.595h-.72v-3.825z"
-            />
-          </svg>
+          Khuzestan Construction Engineering Organization, Iran
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-          ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-          similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-          doloremque officia ducimus!
+          Processing of tenders, interface between Sales, design department,
+          production & purchasing
         </p>
       </section>
     </div>
