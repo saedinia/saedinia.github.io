@@ -17,8 +17,28 @@ a {
   cursor: pointer;
 }
 
+/* width */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply rounded bg-gray-400;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary;
+}
+
 body {
-  @apply text-neutral;
+  @apply text-neutral md:overflow-hidden;
   font-family: 'Fira Sans', sans-serif;
 
   .container {
@@ -123,7 +143,7 @@ body {
     .main-content {
       padding-block-start: rem(0);
       @apply grid;
-      grid-template-columns: auto 1fr;
+      grid-template-columns: auto minmax(45rem, 1fr);
     }
   }
 }
