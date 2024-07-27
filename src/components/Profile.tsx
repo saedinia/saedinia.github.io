@@ -11,9 +11,9 @@ function Profile() {
         </div>
         <div className="image rounded-full w-fit">
           <Avatar
-            src="/images/profile.jpg"
+            src="/images/profile.png"
             alt="Sadegh Saedi Nia"
-            className="rounded-full w-36 border-2 border-primary"
+            className="rounded-full w-36 border-2 border-primary bg-secondary"
             widthClass="w-36"
           />
         </div>

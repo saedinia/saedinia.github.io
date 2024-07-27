@@ -86,9 +86,9 @@ function Navbar() {
         <ul className="menu menu-horizontal md:menu-vertical bg-primary w-full md:w-auto flex justify-between align-middle md:rounded-lg">
           <li className="flex flex-row align-middle md:hidden">
             <Avatar
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt={fullName}
-              className="rounded-full"
+              className="rounded-full bg-secondary"
               widthClass="w-12"
             />
 
