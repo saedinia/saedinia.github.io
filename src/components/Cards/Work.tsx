@@ -10,7 +10,7 @@ const Work = () => {
             <a href="#">
               <img
                 className="rounded-t-lg max-h-52 min-h-52 object-cover w-full"
-                src="/public/images/xdla8r8ag2cr2hbn7hzs.jpg"
+                src="/images/xdla8r8ag2cr2hbn7hzs.jpg"
                 alt=""
               />
             </a>
@@ -163,7 +163,7 @@ const Work = () => {
             <a href="#">
               <img
                 className="rounded-t-lg max-h-52 min-h-52 object-cover w-full"
-                src="/public/images/telc.png"
+                src="/images/telc.png"
                 alt=""
               />
             </a>
@@ -193,7 +193,7 @@ const Work = () => {
             <a href="#">
               <img
                 className="rounded-t-lg max-h-52 min-h-52 object-cover w-full"
-                src="/public/images/sv-maklerblog.png"
+                src="/images/sv-maklerblog.png"
                 alt=""
               />
             </a>
@@ -223,7 +223,7 @@ const Work = () => {
             <a href="#">
               <img
                 className="rounded-t-lg max-h-52 min-h-52 object-cover w-full"
-                src="/public/images/gartenhaus.png"
+                src="/images/gartenhaus.png"
                 alt=""
               />
             </a>
@@ -253,7 +253,7 @@ const Work = () => {
             <a href="#">
               <img
                 className="rounded-t-lg max-h-52 min-h-52 object-cover w-full"
-                src="/public/images/ekir.png"
+                src="/images/ekir.png"
                 alt=""
               />
             </a>
