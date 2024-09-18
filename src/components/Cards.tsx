@@ -1,5 +1,7 @@
 import About from './Cards/About';
+import Contact from './Cards/Contact';
 import Resume from './Cards/Resume';
+import Work from './Cards/Work';
 
 interface Props {}
 
@@ -15,44 +17,16 @@ export default function Cards() {
   );
 }
 
-const Work = () => {
-  return (
-    <div id="card-work" className="card-inner animated">
-      <h1>Card Work</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-        ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-        similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-        doloremque officia ducimus!
-      </p>
-    </div>
-  );
-};
-
 const Blog = () => {
   return (
     <div id="card-blog" className="card-inner animated">
-      <h1>Card Blog</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-        ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-        similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-        doloremque officia ducimus!
-      </p>
-    </div>
-  );
-};
+      <section>
+        <h1>
+          <span>B</span>log
+        </h1>
+      </section>
 
-const Contact = () => {
-  return (
-    <div id="card-contact" className="card-inner animated">
-      <h1>Card Contact</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-        ipsam ut, velit dignissimos nostrum labore consequatur veritatis
-        similique culpa tempora dicta quis aliquam. Laudantium nam accusantium
-        doloremque officia ducimus!
-      </p>
+      <p>We will come soon ...</p>
     </div>
   );
 };

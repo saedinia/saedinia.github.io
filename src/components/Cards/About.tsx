@@ -18,7 +18,7 @@ const About = () => {
         <div className="section-footer">
           <div className="item">
             <span className="item-title">Age</span>
-            <span className="item-subtitle">39</span>
+            <span className="item-subtitle">40</span>
           </div>
 
           <div className="item">
