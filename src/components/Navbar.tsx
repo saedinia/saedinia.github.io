@@ -98,7 +98,7 @@ function Navbar() {
             </div>
           </li>
           <li className="flex flex-row">
-            <Language />
+            {/* <Language /> */}
             <Theme />
           </li>
         </ul>
@@ -167,7 +167,7 @@ function Navbar() {
               <div>Work</div>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blog">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -185,7 +185,7 @@ function Navbar() {
 
               <div>Blog</div>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">
               <svg

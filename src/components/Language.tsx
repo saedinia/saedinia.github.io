@@ -25,14 +25,14 @@ function Language() {
         tabIndex={0}
         className="dropdown-content z-[1] menu p-1 shadow bg-primary rounded-lg w-fit"
       >
-        <li>
+        {/* <li>
           <a
             href="./?lang=en"
             className="hover:bg-primary hover:text-secondary active"
           >
             English
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="./?lang=de"
@@ -41,14 +41,14 @@ function Language() {
             Deutsch
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="./?lang=fa"
             className="hover:bg-primary hover:text-secondary"
           >
             Persian
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
