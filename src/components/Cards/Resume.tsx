@@ -9,7 +9,7 @@ function Resume() {
           <i className="fa-solid fa-briefcase"></i> Experience
         </div>
         <div className="period">01.2025 - Present</div>
-        <div className="toptitle">Fullstack Developer</div>
+        <div className="toptitle">Senior Fullstack Developer</div>
 
         <div className="subtitle">
           D-I-S commerce engineering, Germany
