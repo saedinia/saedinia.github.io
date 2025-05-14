@@ -15,7 +15,7 @@ const Work = () => {
               />
             </a>
             <div className="p-5">
-              <a href="#">
+              <a>
                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Loopstudios landing page
                 </h5>

@@ -1,4 +1,16 @@
 const About = () => {
+  
+
+  const myBirthday = new Date('1984-05-14'); 
+  const today = new Date();
+
+  const age = today.getFullYear() - myBirthday.getFullYear();
+  const hasHadBirthdayThisYear =
+    today.getMonth() > myBirthday.getMonth() ||
+    (today.getMonth() === myBirthday.getMonth() && today.getDate() >= myBirthday.getDate());
+  const realAge = hasHadBirthdayThisYear ? age : age - 1;
+
+
   return (
     <div id="card-about" className="card-inner animated active">
       <section>
@@ -18,7 +30,7 @@ const About = () => {
         <div className="section-footer">
           <div className="item">
             <span className="item-title">Age</span>
-            <span className="item-subtitle">40</span>
+            <span className="item-subtitle">{realAge}</span>
           </div>
 
           <div className="item">
