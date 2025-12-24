@@ -62,6 +62,13 @@ function Resume() {
           My role involves collaborating with multidisciplinary teams to ensure
           seamless functionality, high performance, and exceptional user
           experience for our online platforms.
+
+        <section className="mt-2 flex gap-2">
+          <img src='/images/shopware6-certified-frontend-developer.png' alt='' className="h-16"/>
+          <img src='/images/shopware6-certified-backend-developer.png' alt='' className="h-16"/>
+        </section>
+         
+
         </p>
 
         <section className="services">
