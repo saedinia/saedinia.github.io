@@ -12,7 +12,7 @@ function Resume() {
         <div className="toptitle">Senior Fullstack Developer</div>
 
         <div className="subtitle">
-          D-I-S commerce engineering, Germany
+          D-I-S<span className="hidden md:inline"> commerce engineering</span>, Germany
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
