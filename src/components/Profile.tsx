@@ -83,7 +83,7 @@ function Profile() {
         <div className="divider m-0 bg-primary h-0"></div>
         <div className="links">
           <a
-            href="/pdf/Lebenslauf_Sadegh-SaediNia.pdf"
+            href="/pdf/Resume_Sadegh-SaediNia.pdf"
             className="py-4 bg-primary hover:text-secondary"
           >
             <svg
