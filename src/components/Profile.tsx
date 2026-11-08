@@ -11,7 +11,7 @@ function Profile() {
         </div>
         <div className="image rounded-full w-fit">
           <Avatar
-            src="/images/profile.png"
+            src="/images/sadegh-saedi-nia-20261108.webp"
             alt="Sadegh Saedi Nia"
             className="rounded-full w-36 border-2 border-primary bg-secondary"
             widthClass="w-36"
@@ -83,7 +83,8 @@ function Profile() {
         <div className="divider m-0 bg-primary h-0"></div>
         <div className="links">
           <a
-            href="/pdf/Resume_Sadegh-SaediNia.pdf"
+            href="/pdf/Resume_Sadegh-SaediNia.pdf?v=20261108"
+            download="Lebenslauf_Sadegh-SaediNia.pdf"
             className="py-4 bg-primary hover:text-secondary"
           >
             <svg
